@@ -17,14 +17,13 @@ class AddActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add)
 
-        pageAdapter.add(AddDishFragment(), "Add dish")
+        pageAdapter.add(AddDishFragment(), "Choose dish")
         pageAdapter.add(AddRecipeFragment(), "Add own recipe!")
 
         container.adapter = pageAdapter
         tabs.setupWithViewPager(container)
 
     }
-
 
     class SectionsPageAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
 

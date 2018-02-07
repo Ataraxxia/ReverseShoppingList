@@ -3,6 +3,19 @@
     <string name="title_activity_add">AddActivity</string>
     <string name="tab_text_1">Choose dish</string>
     <string name="tab_text_2">Add own recipe!</string>
-    <string name="action_settings">Settings</string>
-    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="recipe_name">Recipe name</string>
+    <string name="quantity">#</string>
+    <string name="ingredient">Ingredient</string>
+    <string-array name="normalUnits">
+        <item>-</item>
+        <item>Kg</item>
+        <item>Dag</item>
+        <item>Grams</item>
+    </string-array>
+    <string-array name="americanUnits">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array>
 </resources>

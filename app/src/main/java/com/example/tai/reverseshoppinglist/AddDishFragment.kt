@@ -12,7 +12,7 @@ import android.view.ViewGroup
 class AddDishFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val view = inflater!!.inflate(R.layout.tab1_fragment, container, false)
+        val view = inflater!!.inflate(R.layout.adddish_fragment, container, false)
 
         return view
     }
